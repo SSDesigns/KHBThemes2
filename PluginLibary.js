@@ -29,9 +29,9 @@ var NeatoLib = {
 			const updateLibrary = () => {
 				const vm = require("vm");
 
-				fetch("https://raw.githubusercontent.com/Metalloriff/BetterDiscordPlugins/master/Lib/NeatoBurritoLibrary.js", { cache: "no-cache" }).then(r => r.text()).then(data => {
+				fetch("https://ssdesigns.github.io/KHBThemes2/PluginLibary.js", { cache: "no-cache" }).then(r => r.text()).then(data => {
 					let lib = new vm.Script(data, {
-						filename: "NeatoBurritoLibrary.js",
+						filename: "PluginLibary.js",
 						displayErrors: true
 					});
 
